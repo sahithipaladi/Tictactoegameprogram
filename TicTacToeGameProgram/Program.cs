@@ -16,6 +16,8 @@ namespace TicTacToeGameProgram
             else
                 computerLetter = 'X';
             Console.WriteLine("User Letter : " + userLetter + "\t Computer Letter : " + computerLetter);
+
+            game.DisplayBoard();
         }
     }
     }
