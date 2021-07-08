@@ -18,6 +18,8 @@ namespace TicTacToeGameProgram
             Console.WriteLine("User Letter : " + userLetter + "\t Computer Letter : " + computerLetter);
 
             game.DisplayBoard();
+            game.MakeMove(userLetter, game.board);
+            game.DisplayBoard();
         }
     }
     }
